@@ -8,3 +8,12 @@ A responsive personal portfolio website designed in Figma and built with HTML, C
 4. About + Skills section
 5. Projects
 6. Footer
+   ✅ Add
+   ✅ Create
+   ✅ Define
+   ✅ Implement
+   ✅ Refactor
+   ✅ Update
+   ✅ Remove
+   ✅ Fix
+   ✅ Improve
