@@ -1,0 +1,21 @@
+/* PRIMARY COLORS */
+:root{
+    /* ===COLORS=== */
+    /* Primary Colors */
+    --primary-color:#7C0A00;
+    --secondary-color:#B15B54;
+    /* Background Colors*/
+    --bg-color1:#F4E7E3;
+    --bg-color2:#E9BEB8;
+    
+    /* ===TYPOGRAPHY===*/
+    --font-heading:"Elsie Swash Caps", serif;
+    --font-body:"Iosevka Charon", monospace;
+
+    --fs-xsmall:0.6rem;
+    --fs-small:0.8rem;
+    --fs-regular:1rem;
+    --fs-medium:1.2rem;
+    --fs-heading:2.5rem;
+    /* ===SHADOWS=== */
+}

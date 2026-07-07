@@ -1,0 +1,39 @@
+/* HEADERS */
+@font-face {
+    font-family: "Elsie Swash Caps", serif;
+    src: url(../assets/fonts/ElsieSwashCaps-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Elsie Swash Caps", serif;
+    src: url(../assets/fonts/ElsieSwashCaps-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+/* MAIN TEXT */
+@font-face {
+    font-family: "Iosevka Charon", monospace;
+    src: url(../assets/fonts/IosevkaCharon-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka Charon", monospace;
+    src: url(../assets/fonts/IosevkaCharon-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka Charon", monospace;
+    src: url(../assets/fonts/IosevkaCharon-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka Charon", monospace;
+    src: url(../assets/fonts/IosevkaCharon-RegularItalic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
