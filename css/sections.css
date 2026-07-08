@@ -23,10 +23,12 @@ body{
     gap:10px;
 }
 
-
+.header{
+    margin-bottom: 20px;
+}
 .navigation__list{
     display:flex;
-    gap:80px;
+    gap:5vw;
 }
 .navigation__link{
     position:relative;
@@ -82,4 +84,36 @@ body{
     font-weight:900;
     font-size:var(--fs-small);
     color:var(--primary-color);
+}
+
+/*=== HERO ===*/
+.hero__content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15vw;
+}
+
+.hero__text,
+.hero__image{
+    flex: 1;
+}
+.hero__text{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.hero__image{
+    max-width:400px;
+}
+
+.hero__name{
+    font-family:var(--font-heading);
+    font-weight:900;
+    font-size:var(--fs-heading);
+}
+
+.hero__buttons{
+    display:flex;
+    gap:30px;
 }
