@@ -18,6 +18,10 @@ a{
   text-decoration:none;
   color:inherit;
 }
+ul{
+  padding:0;
+  margin:0;
+}
 li{
   list-style:none;
 }
@@ -42,6 +46,8 @@ input, button, textarea, select {
 /* 8. Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
 }
 
 /* 9. Improve line wrapping */
