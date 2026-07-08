@@ -9,6 +9,7 @@
       content="Portfolio of Sofia Yesakova, a Computer Science graduate and aspiring Software Developer."
     />
     <link rel="icon" href="assets/icons/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -19,26 +20,26 @@
             <img
               src="assets/images/LOGO.png"
               class="header__logo-image"
-              alt="logo"
+              alt="Sofiia Yesakova logo"
             />
           </a>
 
           <ul class="navigation__list">
             <li>
-              <a href="index.html"> Main </a>
+              <a href="index.html" class="navigation__link active"> Main </a>
             </li>
             <li>
-              <a href="projects.html"> Projects </a>
+              <a href="projects.html" class="navigation__link"> Projects </a>
             </li>
             <li>
-              <a href="contact.html"> Contact </a>
+              <a href="contact.html" class="navigation__link"> Contact </a>
             </li>
           </ul>
 
-          <button
-            class="header__theme-toggle"
-            aria-label="Toggle dark mode"
-          ></button>
+          <button class="theme-toggle" aria-label="Toggle dark mode">
+            <span class="theme-toggle__circle"></span>
+            <span class="theme-toggle__text">light</span>
+          </button>
         </nav>
       </div>
     </header>
@@ -90,35 +91,47 @@
                     <span class="skill__name">UI/UX Design</span>
                     <span class="skill__level">80%</span>
                   </div>
-                  <div class="skill__progress"></div>
+                  <div class="skill__bar">
+                    <div class="skill__progress skill__progress--html"></div>
+                  </div>
                 </li>
                 <li class="skill">
                   <div class="skill__header">
                     <span class="skill__name">HTML/CSS</span>
                     <span class="skill__level">90%</span>
                   </div>
-                  <div class="skill__progress"></div>
+                  <div class="skill__bar">
+                    <div class="skill__progress skill__progress--css"></div>
+                  </div>
                 </li>
                 <li class="skill">
                   <div class="skill__header">
                     <span class="skill__name">JavaScript</span>
                     <span class="skill__level">60%</span>
                   </div>
-                  <div class="skill__progress"></div>
+                  <div class="skill__bar">
+                    <div
+                      class="skill__progress skill__progress--javascript"
+                    ></div>
+                  </div>
                 </li>
                 <li class="skill">
                   <div class="skill__header">
                     <span class="skill__name">Figma</span>
                     <span class="skill__level">80%</span>
                   </div>
-                  <div class="skill__progress"></div>
+                  <div class="skill__bar">
+                    <div class="skill__progress skill__progress--figma"></div>
+                  </div>
                 </li>
                 <li class="skill">
                   <div class="skill__header">
                     <span class="skill__name">Python</span>
                     <span class="skill__level">50%</span>
                   </div>
-                  <div class="skill__progress"></div>
+                  <div class="skill__bar">
+                    <div class="skill__progress skill__progress--python"></div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -169,32 +182,34 @@
               </article>
 
               <article class="project-card">
-                <a class="project-card__link" href="#"><img
-                  class="project-card__image"
-                  src="#project1"
-                  alt="Project 1"
-                />
-                <h3 class="project-card__title">Car Price Prediction</h3>
-                <p class="project-card__description">
-                  ML, UI/UX design, Web Development
-                </p></a>
-                
+                <a class="project-card__link" href="#"
+                  ><img
+                    class="project-card__image"
+                    src="#project1"
+                    alt="Project 1"
+                  />
+                  <h3 class="project-card__title">Car Price Prediction</h3>
+                  <p class="project-card__description">
+                    ML, UI/UX design, Web Development
+                  </p></a
+                >
               </article>
               <article class="project-card">
-                <a class="project-card__link" href="#"><img
-                  class="project-card__image"
-                  src="#project1"
-                  alt="Project 1"
-                />
-                <h3 class="project-card__title">Car Price Prediction</h3>
-                <p class="project-card__description">
-                  ML, UI/UX design, Web Development
-                </p></a>
-                
+                <a class="project-card__link" href="#"
+                  ><img
+                    class="project-card__image"
+                    src="#project1"
+                    alt="Project 1"
+                  />
+                  <h3 class="project-card__title">Car Price Prediction</h3>
+                  <p class="project-card__description">
+                    ML, UI/UX design, Web Development
+                  </p></a
+                >
               </article>
             </div>
 
-            <a href="#projects" class="button projects__button"
+            <a href="projects.html" class="button projects__button"
               >View All Projects</a
             >
           </div>
@@ -210,7 +225,7 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <div class="footer__logo">
-            <img src="assets/icons/logo.svg" alt="footer__logo-image" />
+            <img src="assets/images/LOGO.png" alt="footer__logo-image" />
           </div>
           <p class="footer__copyright">
             © 2026 Sofiia Yesakova. All rights reserved
