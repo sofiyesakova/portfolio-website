@@ -89,22 +89,14 @@
 .button--secondary{
     background:transparent;
     color: var(--primary-color);
-    font-family: var(--font-heading);
-    font-size: var(--fs-medium);
-    font-weight: 400;
-    padding: 10px 25px;
-    border: 3px solid var(--primary-color);
-    border-radius: 10px;
-    transition: opacity 0.3s ease;
-    cursor: pointer;
 }
 .button:hover{
     opacity:.7;
 }
-.button--secondary:hover{
-    opacity:.7;
+.button:focus-visible{
+    outline:2px solid white;
+    outline-offset: 4px;
 }
-
 /*=== CUSTOM-DIVIDER ===*/
 .section-divider{
     border: none;
