@@ -1,39 +1,39 @@
-/* HEADERS */
+/*=== HEADERS ===*/
 
 @font-face {
     font-family: "Elsie Swash Caps";
-    src: url("../fonts/ElsieSwashCaps-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/ElsieSwashCaps-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Elsie Swash Caps";
-    src: url("../fonts/ElsieSwashCaps-Black.ttf") format("truetype");
+    src: url("../assets/fonts/ElsieSwashCaps-Black.ttf") format("truetype");
     font-weight: 900;
     font-style: normal;
 }
 
 
-/* MAIN TEXT */
+/*=== MAIN TEXT ===*/
 
 @font-face {
     font-family: "Iosevka Charon";
-    src: url("../fonts/IosevkaCharon-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/IosevkaCharon-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Iosevka Charon";
-    src: url("../fonts/IosevkaCharon-Medium.ttf") format("truetype");
+    src: url("../assets/fonts/IosevkaCharon-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Iosevka Charon";
-    src: url("../fonts/IosevkaCharon-Bold.ttf") format("truetype");
+    src: url("../assets/fonts/IosevkaCharon-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
