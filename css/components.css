@@ -29,3 +29,54 @@
 .button--secondary:hover{
     opacity:.7;
 }
+
+/*=== CUSTOM-DIVIDER ===*/
+.section-divider{
+    border: none;
+
+    width: 100%;
+    height: 40px;
+
+    margin: 40px auto;
+
+    background-image: url("../assets/images/divider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+/*=== PROJECT CARD ===*/
+
+.project-card{
+    border: 3px solid var(--primary-color);
+    border-radius:15px;
+    box-shadow: var(--shadow);
+    position:relative;
+    overflow:hidden;
+    max-height: 400px;
+    min-width:100px;
+    transition:transform .3s ease;
+    margin-bottom: 20px;
+}
+.project-card:hover{
+    transform:translateY(-8px);
+}
+.project-card__image{
+   width:100%;
+   height:100%;
+   object-fit: cover;;
+}
+.project-card__text{
+    position:absolute;
+    bottom: 0;
+    background:linear-gradient(
+        transparent 0%,
+        rgba(44, 7, 7, 0.75) 20%,
+        rgba(44, 7, 7, 0.75) 100%
+    );
+    width:100%;
+    padding: 10px;
+    color: var(--bg-color1);
+  
+}
