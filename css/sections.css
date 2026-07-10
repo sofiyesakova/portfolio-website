@@ -1,11 +1,17 @@
 /*=== BODY ===*/
 body{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
     background-image:linear-gradient(to bottom right, var(--bg-color1), var(--bg-color2));
     font-family:var(--font-body);
     font-size:var(--fs-regular);
     min-height:100vh;
     font-weight:400;
     color:var(--primary-color);
+}
+.main{
+    flex:1;
 }
 
 .container{
