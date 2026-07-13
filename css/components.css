@@ -90,6 +90,13 @@
     background:transparent;
     color: var(--primary-color);
 }
+.button--talk{
+    background:transparent;
+    color: var(--primary-color);
+    font-family: var(--font-body);
+    font-size: var(--fs-regular);
+    font-weight: 700;
+}
 .button:hover{
     opacity:.7;
 }
